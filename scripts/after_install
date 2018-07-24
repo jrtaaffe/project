@@ -1,0 +1,4 @@
+#!/bin/bash
+
+password=$(aws ssm get-parameters --region us-east-1 --names taaffe_talker_postgres_password --query Parameters[0].Value)
+find /tmp/codedeploy-deployment-staging-area -type f -name "springmvc-servlet.xml" -exec sed -i '' "s/REPLACEME/$password/g" {} \;
