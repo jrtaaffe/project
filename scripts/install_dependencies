@@ -13,7 +13,7 @@ TOMCAT9_CORE_DOWNLOAD_URL="http://mirror.olnevhost.net/pub/apache/tomcat/tomcat-
 TOMCAT9_CORE_UNPACKED_DIRNAME="apache-tomcat-$TOMCAT_VERSION"
 
 # Install Java if not yet installed
-{ which java; } || { sudo yum -y install java-1.8.0 }
+{ which java; } || { sudo yum -y install java-1.8.0; }
 
 sudo yum -y install java-1.8.0
 sudo yum -y remove java-1.7.0
