@@ -19,13 +19,20 @@
 <html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Bespoke Suits for Dogs! (A sample app for CodeDeploy)</title>
-    <meta name="viewport" content="initial-scale=1.0">
+    <title>WHat is it that you'd like to say?</title>
     <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
     <link rel='stylesheet' href='css/theme.css'>
 </head>
 <body role="document">
-<div> Hello world2</div>
+    <form method = "post">
+	Welcome to the Taaffe Talker
+	
+	Make your voice heard!
+	
+	WHat is your name: <input type="text" name="username">
+    Type your text here: <input type="text" name="message">
+    <img src="/images/taaffe_talker_lips.png">
+    </form>
 </body>
 </html>
