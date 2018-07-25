@@ -34,9 +34,9 @@ import com.amazonaws.services.ec2.model.Reservation;
 
 @Controller
 public class IndexController {
-    private final static Logger LOGGER = Logger.getLogger(IndexController.class.getName());
+//    private final static Logger LOGGER = Logger.getLogger(IndexController.class.getName());
 
-    @RequestMapping(value="/", method = RequestMethod.GET)
+    @RequestMapping(value="/", method = RequestMethod.POST)
     public String displayIndex(){
 	return "/hello";
     }
